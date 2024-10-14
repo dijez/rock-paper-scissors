@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rock paper scissors</title>
+    <link rel="stylesheet" href="playercomputer.css">
+</head>
+<body>
+    <script src="playercomputer.js"></script>
+
+    <a href="combine.html" ><button class="goback">go back</button></a>
+    <div class="all">
+        <div class="playercomputerscore">
+            <h1 class="rps">ROCK PAPER SCISSORS GAME</h1>
+            <div class="scoreDisplay playerscore">Player Score: 
+                <span id="player1ScoreDisplay">0</span>
+            </div>
+            <div class="scoreDisplay computerscore">Computer Score: 
+                <span id="computerScoreDisplay">0</span>
+            </div>
+        </div>
+        
+        <div id="resultDisplay" >RESULT</div>
+        <div class="choice12">
+            <div class="choicesplayer1">
+                <div class="buttons">
+                    <button id="rockButton1"><img src="./rock copy.png"></button>
+                    <button id="paperButton1"><img src="./paper copy.png"></button>
+                    <button id="scissorsButton1"><img src="./scissors1.png"></button>
+                </div>
+                <div class="bothchoice">
+                    <div class="choiceplayer">
+                        <h3>PLAYER PICK</h3>
+                        <p id="player1Choice">Player Choice </p>
+                        <div id="player1Display">PLAYER: </div>
+                    </div>
+                    
+                    <div class="choicescomputer">
+                        <h3>COMPUTER PICK</h3>
+                        <p id="computerChoice">Computer Choice </p>
+                        <div id="computerDisplay">COMPUTER: </div>    
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+       
+    </div>
+</body>
+</html>
